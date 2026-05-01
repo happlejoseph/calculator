@@ -11,20 +11,25 @@
     margin-top: 5rem;
     padding-top: 3rem;
     border-radius: 20px;
+
+    box-shadow: 
+        10px 10px 20px rgba(0,0,0,0.8),
+        -5px -5px 15px rgba(255,255,255,0.05);
 }
 
 #display {
     width: 350px;
     padding: 10px;
-    background-color: white;
+    background-color: rgb(203, 230, 197);
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: right;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: medium;
     border-radius: 10px;
+    
 }
 
 .buttons {
@@ -49,4 +54,9 @@ button:hover {
 .clear {
  background-color: red;
  color: white;
+}
+
+.operators{
+    background-color: gray;
+    color: white;
 }
